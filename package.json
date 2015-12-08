@@ -1,0 +1,19 @@
+{
+  "name": "heroku-chartbeat",
+  "version": "1.0.0",
+  "description": "basic chartbeat heroku plugin",
+  "main": "index.js",
+  "author": "Scott Meves @stereoscott",
+  "repository": "quikly/heroku-chartbeat",
+  "bugs": {
+    "url": "https://github.com/quikly/heroku-chartbeat/issues"
+  },
+  "keywords": [
+    "heroku-chartbeat"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "heroku-cli-util": "^5.7.0",
+    "request": "^2.67.0"
+  }
+}
