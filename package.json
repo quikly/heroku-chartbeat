@@ -1,6 +1,6 @@
 {
   "name": "heroku-chartbeat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "basic chartbeat heroku plugin",
   "main": "index.js",
   "author": "Scott Meves @stereoscott",

@@ -12,10 +12,7 @@ module.exports = {
   needsApp: true,
   needsAuth: true,
   run: cli.command(function(context, heroku) {
-    return heroku.apps(context.app).info()
-    .then(function(app) {
-      return heroku.apps(context.app).configVars().info();
-    })
+    return heroku.apps(context.app).configVars().info()
     .then(function(config) {
       api.get({
         uri: `https://api.chartbeat.com/live/quickstats/v3/?apikey=${config['CHARTBEAT_API_KEY']}&host=${config['DOMAIN']}`
